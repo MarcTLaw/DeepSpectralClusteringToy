@@ -51,3 +51,4 @@ The output dimensionality of the learned neural network in this toy experiment i
 For other datasets where the number of categories k is higher, the output dimensionality of the learned model has to be k.
 
  
+Marc T. Law
