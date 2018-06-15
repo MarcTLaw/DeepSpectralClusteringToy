@@ -8,12 +8,6 @@ from torchvision import datasets, transforms
 from torch.autograd import Variable
 import numpy as np
 
-is_big = True
-if is_big:
-    batch_size = 5000
-else:
-    batch_size = 3000
-threshold_compare = -35.0
 
 save_directory = 'saved_data'
 
@@ -187,5 +181,4 @@ print("Saving test representations")
 save_to_file(nb_epochs)
 
 print("Test representations saved")
-
 
